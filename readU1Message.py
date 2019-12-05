@@ -250,7 +250,7 @@ U1Cert_fname = "U1_cert.pem"
 
 kr_fname = "ksU2/krU2.pem"
 ku_fname = "ksU2/kuU2.pem"
-#key_pass = "password"
+key_pass = "password"
 if not debug:
   #key_pass  = str.encode(getpass.getpass("Please input key password for User2:"))
   key_pass  = getpass.getpass("Please input key password for User2:")
